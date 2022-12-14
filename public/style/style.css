@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gamedisplay {
+    height: 300px;
+    width: 800px;
+    border: solid 1px gray;
+    border-bottom: solid 4px gray;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.cube {
+    height: 60px;
+    width: 60px;
+    background-image: url(../img/airplane1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 10px;
+}
+.jump {
+    position: absolute;
+    left: 800px;
+    height: 135px;
+    width: 135px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.timer {
+    font-size: 30px;
+    color: #F39720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border: solid 4px #F39720;
+}
+.redblock {
+    height: 70px;
+    width: 60px;
+    position: relative;
+    background-image: url(../img/building.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 750px;
+    bottom: 0px;
+}
+.coin{
+    font-size: 30px;
+    color: #F7CA29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border: solid 4px #F7CA29;
+}
+.lifetbl{
+    font-size: 30px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border: solid 4px red;
+}
+.startbtn {
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    color: white;
+    background: #FF5353;
+}
+.startbtn:hover{
+    cursor: pointer;
+    opacity: 40%;
+}
+.whiteairplane {
+    height: 70px;
+    width: 125px;
+    background-image: url(../img/airplanewhite.png);
+    border: solid 1px gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease 0.5;
+}
+.skin {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 1200px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.whiteairplane:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+.standartairplane {
+    height: 60px;
+    width: 125px;
+    background-image: url(../img/airplane1.png);
+    border: solid 1px gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease 0.5;
+}
+.standartairplane:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+.redairplane {
+    height: 65px;
+    width: 125px;
+    background-image: url(../img/airplanered.png);
+    border: solid 1px gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all ease 0.5;
+}
+.redairplane:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+.cloud {
+    height: 80px;
+    width: 90px;
+    background-image: url(../img/clouds.png);
+    opacity: 60%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 1000px;
+    bottom: 105px;
+}
+.life {
+    height: 62px;
+    width: 50px;
+    left: 1860px;
+    background-image: url(../img/lifeh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.upstatus {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/take-off.png);
+    height: 100px;
+    width: 100px;
+}
+#forflypressw {
+    color: #FF5353;
+    font-size: 40px;
+}
